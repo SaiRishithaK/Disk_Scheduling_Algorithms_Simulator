@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/disk-scheduling-simulator/',
+  base: '/Disk_Scheduling_Algorithms_Simulator/',
   plugins: [react(), tailwindcss()],
 })
