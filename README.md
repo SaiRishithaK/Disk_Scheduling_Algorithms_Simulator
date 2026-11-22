@@ -68,18 +68,6 @@ The seek time is a simplified linear approximation, not a prediction of actual h
 - Boundary movement is omitted when no remaining requests require it.
 - Comparison highlights the minimum result for the current workload, not universal optimality.
 
-## Screenshots
-
-Screenshot assets can be placed in `docs/screenshots/` and linked here after deployment.
-
-## GitHub Pages deployment
-
-The Vite base path is `/disk-scheduling-simulator/` for a repository with that name.
-
-1. Push the project to a GitHub repository named `disk-scheduling-simulator`.
-2. Open **Settings > Pages**.
-3. Set **Build and deployment** source to **GitHub Actions**.
-4. Push to `main`; the workflow runs tests, builds `dist`, and deploys it.
 
 ## Future improvements
 
